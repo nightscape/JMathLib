@@ -1,7 +1,7 @@
 package jmathlibtests.toolbox.control.system;
 
 import jmathlib.core.interpreter.Interpreter;
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 
 public class testAbcddim extends TestCase {
 	protected Interpreter ml;
@@ -11,7 +11,7 @@ public class testAbcddim extends TestCase {
 	}
 
     public static void main (String[] args) {
-	    jmathlib.tools.junit.textui.TestRunner.run (suite());
+	    junit.textui.TestRunner.run (suite());
 	}
 
 	protected void setUp() {

@@ -9,7 +9,7 @@
 
 package jmathlibtests.toolbox.help;
 
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 
 /**
  * TestSuite that runs all the tests
@@ -18,7 +18,7 @@ import jmathlib.tools.junit.framework.*;
 public class AllTests {
 
 	public static void main (String[] args) {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());
+		junit.textui.TestRunner.run (suite());
 	}
 	public static Test suite ( ) {
 		TestSuite suite= new TestSuite("help functions");

@@ -1,6 +1,8 @@
 package jmathlibtests.toolbox.control.util;
 
-import jmathlib.tools.junit.framework.*;
+import jmathlib.tools.junit.framework.JMathLibTestCase;
+import junit.framework.Test;
+import junit.framework.TestSuite;
 
 public class testSwap extends JMathLibTestCase {
 	
@@ -8,7 +10,7 @@ public class testSwap extends JMathLibTestCase {
 		super(name);
 	}
 	public static void main (String[] args) {
-	    jmathlib.tools.junit.textui.TestRunner.run (suite());
+	    junit.textui.TestRunner.run (suite());
 	}
 
 	public static Test suite() {

@@ -1,7 +1,8 @@
 package jmathlibtests.toolbox.jmathlib.matrix;
 
-import jmathlib.tools.junit.framework.*;
-import jmathlibtests.Compare;
+import jmathlib.tools.junit.framework.JMathLibTestCase;
+import junit.framework.Test;
+import junit.framework.TestSuite;
 
 public class testAll extends JMathLibTestCase {
 	
@@ -9,7 +10,7 @@ public class testAll extends JMathLibTestCase {
 		super(name);
 	}
 	public static void main (String[] args) {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());
+		junit.textui.TestRunner.run (suite());
 	}
 
 	public static Test suite() {

@@ -4,7 +4,7 @@ import jmathlib.core.interpreter.Interpreter;
 import jmathlibtests.Compare; 
 
 
-public class JMathLibTestCase extends TestCase
+public class JMathLibTestCase extends junit.framework.TestCase
 {
 	
     protected Interpreter ml; 

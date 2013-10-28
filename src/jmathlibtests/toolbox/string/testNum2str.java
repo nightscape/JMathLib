@@ -1,7 +1,9 @@
 package jmathlibtests.toolbox.string;
 
 import jmathlib.core.interpreter.Interpreter;
-import jmathlib.tools.junit.framework.*;
+import junit.framework.Test;
+import junit.framework.TestCase;
+import junit.framework.TestSuite;
 
 public class testNum2str extends TestCase {
 	protected Interpreter ml;
@@ -10,7 +12,7 @@ public class testNum2str extends TestCase {
 		super(name);
 	}
 	public static void main (String[] args) {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());
+		junit.textui.TestRunner.run (suite());
 	}
 	protected void setUp() {
 		ml = new Interpreter(true);

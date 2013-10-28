@@ -1,8 +1,9 @@
 package jmathlibtests;
 
 import jmathlib.core.interpreter.Interpreter; 
-import jmathlib.tools.junit.framework.*; 
+import junit.framework.*; 
 import jmathlibtests.Compare; 
+import junit.framework.TestCase;
 
 /** helper class to compare different data objects from mathlib  */
 public class ScriptTestCase extends TestCase
@@ -27,7 +28,7 @@ public class ScriptTestCase extends TestCase
         ml.executeExpression(s);
     }
     
-    public void assertEquals(String a, String b)
+    public void assertInterpretationEquals(String a, String b)
     {
         ml.executeExpression(a);
         double[][]ans1D = ml.getArrayValueRe("ans");

@@ -1,8 +1,8 @@
 // test_jmathlib_toolbox_jmathlib_internal_plusplus
 package jmathlibtests.scripts; 
-import jmathlib.core.interpreter.Interpreter;   
-import jmathlib.tools.junit.framework.*;        
-import jmathlibtests.Compare;                   
+import jmathlib.tools.junit.framework.JMathLibTestCase;
+import junit.framework.Test;
+import junit.framework.TestSuite;
 
 public class test_jmathlib_toolbox_jmathlib_internal_plusplus extends JMathLibTestCase {     
      
@@ -10,7 +10,7 @@ public class test_jmathlib_toolbox_jmathlib_internal_plusplus extends JMathLibTe
         super(name);                            
     }                                           
     public static void main (String[] args) {   
-        jmathlib.tools.junit.textui.TestRunner.run (suite()); 
+        junit.textui.TestRunner.run (suite()); 
     }                                           
  
     public static Test suite() {                

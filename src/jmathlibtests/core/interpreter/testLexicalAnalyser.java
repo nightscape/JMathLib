@@ -1,6 +1,6 @@
 package jmathlibtests.core.interpreter;
 
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 import jmathlib.core.interpreter.*;
 import jmathlib.core.tokens.*;
 import jmathlib.core.tokens.numbertokens.DoubleNumberToken;
@@ -18,7 +18,7 @@ public class testLexicalAnalyser extends TestCase
     
     public static void main(String[] args)
     {
-        jmathlib.tools.junit.textui.TestRunner.run (suite());        
+        junit.textui.TestRunner.run (suite());        
     }
 
     public static Test suite()

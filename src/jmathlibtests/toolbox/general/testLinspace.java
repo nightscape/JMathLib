@@ -1,7 +1,7 @@
 package jmathlibtests.toolbox.general;
 
 import jmathlib.core.interpreter.Interpreter;
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 
 public class testLinspace extends TestCase {
 	protected Interpreter ml;
@@ -10,7 +10,7 @@ public class testLinspace extends TestCase {
 		super(name);
 	}
 	public static void main (String[] args) {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());
+		junit.textui.TestRunner.run (suite());
 	}
 	public static Test suite() {
 		return new TestSuite(testLinspace.class);

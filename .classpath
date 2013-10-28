@@ -13,6 +13,7 @@
 	<classpathentry kind="lib" path="libs/xercesImpl-2.7.1.jar"/>
 	<classpathentry kind="lib" path="src/jmathlib/plugins/dynjava/dynamicjava.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
 	<classpathentry kind="lib" path="libs/xml-apis-1.3.04.jar"/>
 	<classpathentry kind="lib" path="libs/xml-apis-ext-1.3.04.jar"/>
 	<classpathentry kind="lib" path="libs/xmlgraphics-commons-1.3.1.jar"/>

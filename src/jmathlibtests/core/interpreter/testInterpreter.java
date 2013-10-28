@@ -1,6 +1,6 @@
 package jmathlibtests.core.interpreter;
 
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 import jmathlib.core.interpreter.*;
 import jmathlibtests.*;
 
@@ -11,7 +11,7 @@ public class testInterpreter extends TestCase {
 		super(name);
 	}
 	public static void main (String[] args) {
-	    jmathlib.tools.junit.textui.TestRunner.run (suite());
+	    junit.textui.TestRunner.run (suite());
 	}
 	protected void setUp() {
 		ml = new Interpreter(true);

@@ -165,7 +165,7 @@ public class testcasegenerator
         s+="package jmathlibtests.scripts; \n";
         s+="";
         s+="import jmathlib.core.interpreter.Interpreter;   \n";
-        s+="import jmathlib.tools.junit.framework.*;        \n";
+        s+="import junit.framework.*;        \n";
         s+="import jmathlibtests.Compare;                   \n";
         s+="\n";
         s+="public class "+ fileS +" extends JMathLibTestCase {     \n";
@@ -174,7 +174,7 @@ public class testcasegenerator
         s+="        super(name);                            \n";
         s+="    }                                           \n";
         s+="    public static void main (String[] args) {   \n";
-        s+="        jmathlib.tools.junit.textui.TestRunner.run (suite()); \n";
+        s+="        junit.textui.TestRunner.run (suite()); \n";
         s+="    }                                           \n";
         s+=" \n";
         s+="    public static Test suite() {                \n";
@@ -229,12 +229,12 @@ public class testcasegenerator
         
         s+="    package jmathlibtests.scripts;                          \n";
         s+="                                                            \n";
-        s+="    import jmathlib.tools.junit.framework.*;                \n";
+        s+="    import junit.framework.*;                \n";
         s+="                                                            \n";
         s+="    public class AllTests {                                 \n";
         s+="                                                            \n";
         s+="        public static void main (String[] args) {           \n";
-        s+="           jmathlib.tools.junit.textui.TestRunner.run (suite()); \n";
+        s+="           junit.textui.TestRunner.run (suite()); \n";
         s+="        }                                                   \n";
         s+="       public static Test suite ( ) {                       \n";
         s+="            TestSuite suite= new TestSuite(\"script functions\"); \n";

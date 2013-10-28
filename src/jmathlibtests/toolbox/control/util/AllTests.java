@@ -1,6 +1,7 @@
 package jmathlibtests.toolbox.control.util;
 
-import jmathlib.tools.junit.framework.*;
+import junit.framework.Test;
+import junit.framework.TestSuite;
 
 
 /**
@@ -10,7 +11,7 @@ import jmathlib.tools.junit.framework.*;
 public class AllTests {
 
 	public static void main (String[] args) {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());
+		junit.textui.TestRunner.run (suite());
 	}
 	public static Test suite ( ) {
 		TestSuite suite= new TestSuite("control util functions");

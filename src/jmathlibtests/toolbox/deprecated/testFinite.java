@@ -1,6 +1,8 @@
 package jmathlibtests.toolbox.deprecated;
 
-import jmathlib.tools.junit.framework.*;
+import jmathlib.tools.junit.framework.JMathLibTestCase;
+import junit.framework.Test;
+import junit.framework.TestSuite;
 
 public class testFinite extends JMathLibTestCase {
 	
@@ -8,7 +10,7 @@ public class testFinite extends JMathLibTestCase {
 		super(name);
 	}
 	public static void main (String[] args) {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());
+		junit.textui.TestRunner.run (suite());
 	}
 
 	public static Test suite() {

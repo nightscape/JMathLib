@@ -1,7 +1,7 @@
 package jmathlibtests.toolbox.specfun;
 
 import jmathlib.core.interpreter.Interpreter;
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 import jmathlibtests.Compare;
 
 public class testPerms extends TestCase {
@@ -11,7 +11,7 @@ public class testPerms extends TestCase {
 		super(name);
 	}
 	public static void main (String[] args) {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());
+		junit.textui.TestRunner.run (suite());
 	}
 	protected void setUp() {
 		ml = new Interpreter(true);

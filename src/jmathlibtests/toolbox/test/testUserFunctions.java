@@ -1,7 +1,7 @@
 package jmathlibtests.toolbox.test;
 
 import jmathlib.core.interpreter.Interpreter;
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 
 public class testUserFunctions extends TestCase
 {
@@ -14,7 +14,7 @@ public class testUserFunctions extends TestCase
     
     public static void main(String[] args)
     {
-		jmathlib.tools.junit.textui.TestRunner.run (suite());        
+		junit.textui.TestRunner.run (suite());        
     }
 
     public static Test suite()

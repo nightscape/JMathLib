@@ -2,7 +2,7 @@ package jmathlibtests.core.tokens;
 
 import jmathlib.core.interpreter.Interpreter;
 import jmathlib.core.tokens.numbertokens.DoubleNumberToken;
-import jmathlib.tools.junit.framework.*;
+import junit.framework.*;
 import jmathlib.core.tokens.*;
 
 public class testCharToken extends TestCase
@@ -19,7 +19,7 @@ public class testCharToken extends TestCase
     
     public static void main(String[] args)
     {
-        jmathlib.tools.junit.textui.TestRunner.run (suite());        
+        junit.textui.TestRunner.run (suite());        
     }
 
     public static Test suite()
