@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/avalon-framework-4.2.0.jar"/>
+	<classpathentry kind="lib" path="libs/batik-all-1.7.jar"/>
+	<classpathentry kind="lib" path="libs/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="libs/fop.jar"/>
+	<classpathentry kind="lib" path="libs/saxon.jar"/>
+	<classpathentry kind="lib" path="libs/serializer-2.7.0.jar"/>
+	<classpathentry kind="lib" path="libs/servlet-api.jar"/>
+	<classpathentry kind="lib" path="libs/xalan-2.7.0.jar"/>
+	<classpathentry kind="lib" path="libs/xercesImpl-2.7.1.jar"/>
+	<classpathentry kind="lib" path="src/jmathlib/plugins/dynjava/dynamicjava.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/xml-apis-1.3.04.jar"/>
+	<classpathentry kind="lib" path="libs/xml-apis-ext-1.3.04.jar"/>
+	<classpathentry kind="lib" path="libs/xmlgraphics-commons-1.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/saxon-xml-apis.jar"/>
+	<classpathentry kind="lib" path="libs/saxon-jdom.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
